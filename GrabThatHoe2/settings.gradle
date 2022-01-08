@@ -7,4 +7,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "GrapThatHoe2"
-include ':app'
+include ':presentation'
+include ':data'
+include ':domain'

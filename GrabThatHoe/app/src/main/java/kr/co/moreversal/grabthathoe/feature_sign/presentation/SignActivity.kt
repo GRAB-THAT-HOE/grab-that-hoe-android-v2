@@ -1,4 +1,4 @@
-package kr.co.moreversal.grabthathoe
+package kr.co.moreversal.grabthathoe.feature_sign.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import kr.co.moreversal.grabthathoe.ui.theme.GrabThatHoeTheme
 
-class MainActivity : ComponentActivity() {
+class SignActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Greeting2("Android")
                 }
             }
         }
@@ -30,14 +30,14 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
+fun Greeting2(name: String) {
     Text(text = "Hello $name!")
 }
 
 @Preview(showBackground = true)
 @Composable
-fun DefaultPreview() {
+fun DefaultPreview2() {
     GrabThatHoeTheme {
-        Greeting("Android")
+        Greeting2("Android")
     }
 }

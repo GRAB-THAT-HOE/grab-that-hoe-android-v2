@@ -2,7 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="kr.co.moreversal.grabthathoe">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
+        android:name=".GrabThatHoeApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,6 +17,22 @@
             android:exported="false"
             android:label="@string/title_activity_sign"
             android:theme="@style/Theme.GrabThatHoe" />
+        <activity
+            android:name="com.kakao.sdk.auth.AuthCodeHandlerActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE"/>
+
+                <!-- Redirect URI: "kakao{NATIVE_APP_KEY}://oauth"-->
+                <data
+                    android:host="oauth"
+                    android:scheme="@string/kakao_native_key" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".feature_post.presentation.MainActivity"
             android:exported="true"

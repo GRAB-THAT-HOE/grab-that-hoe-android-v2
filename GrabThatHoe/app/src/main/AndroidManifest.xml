@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="kr.co.moreversal.grabthathoe">
+    package="kr.co.moreversal.grabthathoe"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-sdk tools:overrideLibrary="com.kakao.sdk:v2-user:2.0.1" />
 
     <application
         android:name=".GrabThatHoeApplication"

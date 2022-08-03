@@ -1,8 +1,8 @@
-package kr.co.moreversal.grabthathoe
+package kr.co.moreversal.grabthathoe.scenes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import fastcampus.aop.part4.grab_that_hoe_v2.R
+import kr.co.moreversal.grabthathoe.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

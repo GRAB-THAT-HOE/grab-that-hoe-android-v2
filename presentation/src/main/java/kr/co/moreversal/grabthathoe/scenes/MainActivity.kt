@@ -1,7 +1,7 @@
 package kr.co.moreversal.grabthathoe.scenes
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kr.co.moreversal.grabthathoe.R
 
 class MainActivity : AppCompatActivity() {

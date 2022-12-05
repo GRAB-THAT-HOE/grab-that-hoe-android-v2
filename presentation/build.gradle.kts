@@ -92,7 +92,6 @@ dependencies {
     // map
     implementation(NaverMap.NAVER_MAP)
 
-
     // exo player
     implementation(Google.EXO_PLAYER_CORE)
     implementation(Google.EXO_PLAYER_UI)

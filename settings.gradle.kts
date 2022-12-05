@@ -10,9 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven("https://naver.jfrog.io/artifactory/maven/")
     }
 }
 rootProject.name = "grab-that-hoe-v2"
-include ':presentation'
-include ':data'
-include ':domain'
+include(":presentation")
+include(":data")
+include(":domain")

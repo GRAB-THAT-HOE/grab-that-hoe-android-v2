@@ -5,11 +5,12 @@ object Versions {
     const val EXO_PLAYER = "2.18.1"
 
     const val CORE_KTX = "1.9.0"
-    const val APP_COMPAT = "1.4.2"
+    const val APP_COMPAT = "1.5.1"
+    const val VIEWMODEL_KTX = "1.5.1"
     const val ROOM = "2.4.3"
 
     const val HILT = "2.38.1"
-    const val MATERIAL = "1.5.0"
+    const val MATERIAL = "1.7.0"
     
     const val KT_LINT = "10.2.0"
 

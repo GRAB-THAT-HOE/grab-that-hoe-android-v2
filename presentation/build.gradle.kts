@@ -44,6 +44,8 @@ android {
 dependencies {
     implementation(AndroidX.CORE_KTX)
     implementation(AndroidX.APP_COMPAT)
+    implementation(AndroidX.VIEWMODEL_KTX)
+
     implementation(Google.MATERIAL)
 
     testImplementation(UnitTest.JUNIT)

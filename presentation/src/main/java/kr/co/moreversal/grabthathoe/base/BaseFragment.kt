@@ -9,11 +9,13 @@ import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.fragment.app.Fragment
 import kr.co.moreversal.grabthathoe.BR
+import kr.co.moreversal.grabthathoe.features.main.activity.MainActivity
 
 abstract class BaseFragment<B : ViewDataBinding, VM : BaseViewModel>(@LayoutRes private val layoutRes: Int) : Fragment() {
 
     protected lateinit var binding: B
     protected abstract val viewModel: VM
+    protected open val hasBottomNavigation: Boolean = false
 
     protected abstract fun start()
 
@@ -30,6 +32,7 @@ abstract class BaseFragment<B : ViewDataBinding, VM : BaseViewModel>(@LayoutRes 
         super.onViewCreated(view, savedInstanceState)
         prepareDataBinding()
         start()
+        (activity as? MainActivity)?.setNavVisible(hasBottomNavigation)
     }
 
     private fun prepareDataBinding() {

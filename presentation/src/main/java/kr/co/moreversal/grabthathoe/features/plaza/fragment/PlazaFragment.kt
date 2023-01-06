@@ -25,5 +25,4 @@ class PlazaFragment : BaseFragment<FragmentPlazaBinding, PlazaViewModel>(R.layou
     private fun handleEvent(event: Event) = when (event) {
         is Event.ShowToast -> Toast.makeText(requireContext(), event.text, Toast.LENGTH_SHORT).show()
     }
-
 }

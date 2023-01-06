@@ -2,11 +2,11 @@ package kr.co.moreversal.grabthathoe.features.plaza.viewmodel
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel
-import javax.inject.Inject
 import kotlinx.coroutines.launch
 import kr.co.moreversal.grabthathoe.base.BaseViewModel
 import kr.co.moreversal.grabthathoe.utils.MutableEventFlow
 import kr.co.moreversal.grabthathoe.utils.asEventFlow
+import javax.inject.Inject
 
 @HiltViewModel
 class PlazaViewModel @Inject constructor() : BaseViewModel() {
@@ -18,10 +18,8 @@ class PlazaViewModel @Inject constructor() : BaseViewModel() {
         event(Event.ShowToast("테스트 토스트"))
     }
 
-    private fun event(event: Event) {
-        viewModelScope.launch {
-            _eventFlow.emit(event)
-        }
+    private fun event(event: Event) = viewModelScope.launch {
+        _eventFlow.emit(event)
     }
 
     sealed class Event {

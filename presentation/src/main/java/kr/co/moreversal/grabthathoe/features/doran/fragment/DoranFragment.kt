@@ -12,7 +12,5 @@ class DoranFragment : BaseFragment<FragmentDoranBinding, DoranViewModel>(R.layou
     override val hasBottomNavigation: Boolean = true
 
     override fun start() {
-
     }
-
 }

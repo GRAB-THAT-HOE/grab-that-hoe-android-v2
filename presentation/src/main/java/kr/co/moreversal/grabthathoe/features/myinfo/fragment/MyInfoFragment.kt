@@ -12,7 +12,5 @@ class MyInfoFragment : BaseFragment<FragmentMyinfoBinding, MyInfoViewModel>(R.la
     override val hasBottomNavigation: Boolean = true
 
     override fun start() {
-
     }
-
 }

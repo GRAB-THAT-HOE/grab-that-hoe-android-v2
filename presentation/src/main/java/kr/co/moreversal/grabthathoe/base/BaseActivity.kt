@@ -8,11 +8,11 @@ import androidx.databinding.ViewDataBinding
 import kr.co.moreversal.grabthathoe.BR
 
 abstract class BaseActivity<B : ViewDataBinding, VM : BaseViewModel>(@LayoutRes private val layoutRes: Int) : AppCompatActivity() {
-    protected lateinit var binding: B
-    protected lateinit var viewModel: VM
+
+    lateinit var binding: B
+    protected abstract val viewModel: VM
 
     protected abstract fun start()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         prepareDataBinding()

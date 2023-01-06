@@ -1,7 +1,7 @@
 package kr.co.moreversal.grabthathoe.features.main.viewmodel
 
-import androidx.lifecycle.ViewModel
+import kr.co.moreversal.grabthathoe.base.BaseViewModel
 
-class MainViewModel : ViewModel() {
+class MainViewModel : BaseViewModel() {
 
 }

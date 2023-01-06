@@ -1,4 +1,4 @@
-package kr.co.moreversal.grabthathoe.features
+package kr.co.moreversal.grabthathoe.features.main.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

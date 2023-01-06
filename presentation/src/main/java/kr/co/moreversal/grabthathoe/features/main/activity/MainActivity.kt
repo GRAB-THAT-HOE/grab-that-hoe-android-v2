@@ -26,7 +26,7 @@ class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(R.layout.a
     }
 
     fun setNavVisible(demand: Boolean) {
-        binding.bnvMain.visibility = if (demand) View.GONE else View.VISIBLE
+        binding.bnvMain.visibility = if (demand) View.VISIBLE else View.GONE
     }
 
 }

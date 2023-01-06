@@ -27,8 +27,6 @@ android {
 }
 
 dependencies {
-    implementation(AndroidX.CORE_KTX)
-    implementation(AndroidX.APP_COMPAT)
 
     testImplementation(UnitTest.JUNIT)
     androidTestImplementation(AndroidTest.ANDROID_JUNIT)

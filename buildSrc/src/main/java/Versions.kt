@@ -6,7 +6,7 @@ object Versions {
 
     const val CORE_KTX = "1.9.0"
     const val APP_COMPAT = "1.5.1"
-    const val VIEWMODEL = "1.5.1"
+    const val VIEWMODEL = "2.5.1"
     const val ROOM = "2.4.3"
 
     const val HILT = "2.38.1"

@@ -44,6 +44,7 @@ android {
 dependencies {
     implementation(AndroidX.CORE_KTX)
     implementation(AndroidX.APP_COMPAT)
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.5.1")
 
     implementation(AndroidX.VIEWMODEL)
     implementation(AndroidX.VIEWMODEL_KTX)

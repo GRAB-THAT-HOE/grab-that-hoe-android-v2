@@ -5,11 +5,13 @@ import androidx.activity.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
+import dagger.hilt.android.AndroidEntryPoint
 import kr.co.moreversal.grabthathoe.R
 import kr.co.moreversal.grabthathoe.base.BaseActivity
 import kr.co.moreversal.grabthathoe.databinding.ActivityMainBinding
 import kr.co.moreversal.grabthathoe.features.main.viewmodel.MainViewModel
 
+@AndroidEntryPoint
 class MainActivity : BaseActivity<ActivityMainBinding, MainViewModel>(R.layout.activity_main) {
 
     override val viewModel: MainViewModel by viewModels()

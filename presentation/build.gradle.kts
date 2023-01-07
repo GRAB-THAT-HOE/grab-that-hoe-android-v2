@@ -48,6 +48,7 @@ dependencies {
 
     implementation(AndroidX.VIEWMODEL)
     implementation(AndroidX.VIEWMODEL_KTX)
+    implementation(AndroidX.FRAGMENT_KTX)
 
     implementation(Google.MATERIAL)
 

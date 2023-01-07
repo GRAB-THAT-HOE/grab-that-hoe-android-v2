@@ -11,6 +11,7 @@ import javax.inject.Inject
 @HiltViewModel
 class PlazaViewModel @Inject constructor() : BaseViewModel() {
 
+    // TODO EVENT 코드는 Sample 입니다. 삭제 바람.
     private val _eventFlow = MutableEventFlow<Event>()
     val eventFlow = _eventFlow.asEventFlow()
 

@@ -22,6 +22,7 @@ class PlazaFragment : BaseFragment<FragmentPlazaBinding, PlazaViewModel>(R.layou
         }
     }
 
+    // TODO EVENT 코드는 Sample 입니다. 삭제 바람.
     private fun handleEvent(event: Event) = when (event) {
         is Event.ShowToast -> Toast.makeText(requireContext(), event.text, Toast.LENGTH_SHORT).show()
     }

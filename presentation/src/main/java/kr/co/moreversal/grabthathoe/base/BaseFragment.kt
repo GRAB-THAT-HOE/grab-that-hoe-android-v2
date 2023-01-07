@@ -11,7 +11,9 @@ import androidx.fragment.app.Fragment
 import kr.co.moreversal.grabthathoe.BR
 import kr.co.moreversal.grabthathoe.features.main.activity.MainActivity
 
-abstract class BaseFragment<B : ViewDataBinding, VM : BaseViewModel>(@LayoutRes private val layoutRes: Int) : Fragment() {
+abstract class BaseFragment<B : ViewDataBinding, VM : BaseViewModel>(
+    @LayoutRes private val layoutRes: Int
+) : Fragment() {
 
     protected lateinit var binding: B
     protected abstract val viewModel: VM
@@ -31,8 +33,8 @@ abstract class BaseFragment<B : ViewDataBinding, VM : BaseViewModel>(@LayoutRes 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         prepareDataBinding()
-        start()
         (activity as? MainActivity)?.setNavVisible(hasBottomNavigation)
+        start()
     }
 
     private fun prepareDataBinding() {

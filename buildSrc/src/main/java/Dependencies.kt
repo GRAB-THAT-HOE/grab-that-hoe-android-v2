@@ -9,6 +9,7 @@ object AndroidX {
     const val RUNTIME = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.RUNTIME}"
     const val VIEWMODEL = "androidx.lifecycle:lifecycle-viewmodel:${Versions.VIEWMODEL}"
     const val VIEWMODEL_KTX = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.VIEWMODEL}"
+    const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${Versions.FRAGMENT}"
 
     const val ROOM_RUNTIME = "androidx.room:room-runtime:${Versions.ROOM}"
     const val ROOM_KTX = "androidx.room:room-ktx:${Versions.ROOM}"

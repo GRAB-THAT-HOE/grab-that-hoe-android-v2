@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/main_plaza"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_plaza"
+        />
+
+    <item android:id="@+id/main_doran"
+        android:icon="@drawable/ic_doran"
+        android:title="@string/title_doran" />
+
+    <item android:id="@+id/main_my_info"
+        android:icon="@drawable/ic_user"
+        android:title="@string/title_my_info" />
+
+</menu>

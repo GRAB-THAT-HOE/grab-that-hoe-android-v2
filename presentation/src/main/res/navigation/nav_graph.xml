@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/main_plaza">
+
+    <fragment
+        android:id="@+id/main_plaza"
+        android:name="kr.co.moreversal.grabthathoe.features.plaza.fragment.PlazaFragment"
+        android:label="PlazaFragment" />
+    <fragment
+        android:id="@+id/main_doran"
+        android:name="kr.co.moreversal.grabthathoe.features.doran.fragment.DoranFragment"
+        android:label="DoranFragment" />
+    <fragment
+        android:id="@+id/main_my_info"
+        android:name="kr.co.moreversal.grabthathoe.features.myinfo.fragment.MyInfoFragment"
+        android:label="MyInfoFragment" />
+
+</navigation>

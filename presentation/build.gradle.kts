@@ -44,6 +44,12 @@ android {
 dependencies {
     implementation(AndroidX.CORE_KTX)
     implementation(AndroidX.APP_COMPAT)
+    implementation(AndroidX.RUNTIME)
+
+    implementation(AndroidX.VIEWMODEL)
+    implementation(AndroidX.VIEWMODEL_KTX)
+    implementation(AndroidX.FRAGMENT_KTX)
+
     implementation(Google.MATERIAL)
 
     testImplementation(UnitTest.JUNIT)
@@ -91,11 +97,6 @@ dependencies {
 
     // map
     implementation(NaverMap.NAVER_MAP)
-
-    // exo player
-    implementation(Google.EXO_PLAYER_CORE)
-    implementation(Google.EXO_PLAYER_UI)
-    implementation(Google.EXO_PLAYER_DASH)
 
     // indicator
     implementation(Libraries.INDICATOR)

@@ -147,3 +147,7 @@ fabric.properties
 
 /app/src/main/res/values/kakao_app_key.xml
 GrabThatHoe/app/src/main/res/values/kakao_app_key.xml
+
+.idea/codeStyles/
+
+.idea/

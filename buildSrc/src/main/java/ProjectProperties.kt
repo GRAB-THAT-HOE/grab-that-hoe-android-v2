@@ -1,8 +1,8 @@
 import org.gradle.api.JavaVersion
 
 object ProjectProperties {
-    const val VERSION_CODE = 51
-    const val VERSION_NAME = "2.0.7"
+    const val VERSION_CODE = 1
+    const val VERSION_NAME = "1.0"
 
     const val APPLICATION_ID = "ko.co.moreversal.grabthathoe"
     const val TEST_RUNNER = "androidx.test.runner.AndroidJUnitRunner"

@@ -26,5 +26,4 @@ object DatabaseModule {
     @Singleton
     @Provides
     fun provideSampleDao(appDatabase: AppDatabase): SampleDao = appDatabase.sampleDao()
-
 }

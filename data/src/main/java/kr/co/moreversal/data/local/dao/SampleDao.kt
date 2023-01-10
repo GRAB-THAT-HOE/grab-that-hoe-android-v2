@@ -8,5 +8,4 @@ import kr.co.moreversal.data.local.entity.SampleEntity
 interface SampleDao {
     @Insert
     suspend fun sampleInsert(entity: SampleEntity)
-
 }

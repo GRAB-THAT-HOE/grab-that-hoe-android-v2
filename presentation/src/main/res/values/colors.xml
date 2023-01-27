@@ -18,6 +18,9 @@
     <color name="neutral">#FF5C5F5B</color>
     <color name="neutral_variant">#FF586059</color>
 
+    <color name="enable_button">#FFA47E3B</color>
+    <color name="disable_button">#FFCFCFCF</color>
+
     <color name="background">#FFECECEC</color>
 
 </resources>
